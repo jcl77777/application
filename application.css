@@ -1,0 +1,12 @@
+.frame{
+    display:flex; /*讓下一層項目水平排列*/
+}
+.left{
+    flex:none; /*固定配置*/
+    width:200px
+}
+.right{
+    display:flex;
+    justify-content: flex-end; /*水平對齊*/
+    flex:auto; /*自動把剩下的空間填滿*/
+}
