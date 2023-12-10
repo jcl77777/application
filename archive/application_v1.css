@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.question {
+    width: 70%;
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #3498db;
+}
+
+p {
+    line-height: 1.6;
+}
+
+hr {
+    height: 2px;
+    border-width: 0px;
+    width: 70%;
+    background-color: #3498db;
+  }
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+    padding: 5px;
+    margin-top: auto;
+    margin-bottom: auto
+  }
+
+ul {
+    list-style-type: circle; /* Use 'disc', 'circle', or 'square' for different bullet styles */
+    padding-left: 20px; /* Adjust as needed */
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #ecf0f1;
+}
+

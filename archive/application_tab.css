@@ -9,32 +9,28 @@ header {
     color: #fff;
     text-align: center;
     padding: 1em;
-    width:100%;
 }
 
-/* Container to hold both tab and content */
-.container {
-    display: flex;
-    width: 100%;
-  }
-
-/* Style the tab on the left */
+/* Style the tab */
 .tab {
-    overflow: hidden;
+    float: left;
+    border: 1px solid #ccc;
     background-color: #f1f1f1;
-    width: 20%; /* Adjusted width for the tabs */
+    width: 30%;
+    height: 300px;
   }
   
   /* Style the buttons that are used to open the tab content */
-.tab button {
+  .tab button {
     display: block;
     background-color: inherit;
     color: black;
-    padding: 14px 16px; /* Adjusted padding */
+    padding: 22px 16px;
     width: 100%;
     border: none;
     outline: none;
     text-align: left;
+    cursor: pointer;
   }
   
   /* Change background color of buttons on hover */
@@ -47,36 +43,31 @@ header {
     background-color: #ccc;
   }
   
-  /* Style the content on the right */
-  .content {
-    width: 80%;
-    margin-right: 50px;
-    /* Adjusted width for the content */
-  }
-  
   /* Style the tab content */
   .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
     display: none;
-    padding: 20px;
-    width: 100%;
-    border: none;
   }
-  
-  /* Additional style for the active tab content */
-  .tabcontent.active {
-    display: block;
-  }
-  
 
 h2 {
     color: #3498db;
 }
 
 p {
-    line-height: 2;
-    margin-right: 50px;
-    font-size: medium;
+    line-height: 1.6;
 }
+
+hr {
+    height: 2px;
+    border-width: 0px;
+    width: 70%;
+    background-color: #3498db;
+  }
 
 .row {
     display: flex;
