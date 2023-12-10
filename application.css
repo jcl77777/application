@@ -1,12 +1,37 @@
-.frame{
-    display:flex; /*讓下一層項目水平排列*/
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.left{
-    flex:none; /*固定配置*/
-    width:200px
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
 }
-.right{
-    display:flex;
-    justify-content: flex-end; /*水平對齊*/
-    flex:auto; /*自動把剩下的空間填滿*/
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.right, .left {
+    width: 30%;
+}
+
+article {
+    width: 60%;
+}
+
+.right p, .left p, article p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #ecf0f1;
 }
